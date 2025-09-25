@@ -12,8 +12,8 @@
 using namespace sensesp;
 
 // ==== Bilge water height sensor settings ====
-#define TRIG_PIN 27
-#define ECHO_PIN 25
+#define TRIG_PIN 26   // GPIO26 (left side, D0, just above 25)
+#define ECHO_PIN 25   // GPIO25 (left side, D2, bottom)
 
 #define SOUND_SPEED 0.0343f   // cm/us
 #define MAX_DISTANCE 400      // cm
